@@ -8,7 +8,7 @@ All files are in [Parquet](https://parquet.apache.org/) format and can be loaded
 
 | Table | Description |
 |---|---|
-| `pbp` | Play-by-play: one row per game event (shots, fouls, turnovers, substitutions, etc.) |
+| `pbp` | Play-by-play: one row per game event (shots, fouls, turnovers, substitutions, etc.) with added lineups during events, possession count trigger and other useful information |
 | `possessions` | One row per possession |
 | `lineup_stats` | One row per stint: each uninterrupted stretch of a game with the same ten players on the floor.
 
